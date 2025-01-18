@@ -86,7 +86,7 @@ function loadProjects() {
         projectCard.className = 'col-md-4 mb-4';
         
         projectCard.innerHTML = `
-            <div class="card">
+            <div class="card" style="height: 450px">
                 <img src="${project.image}" class="card-img-top" alt="${project.title}" />
                 <div class="card-body">
                     <h5 class="card-title">${project.title}</h5>
